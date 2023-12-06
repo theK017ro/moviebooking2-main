@@ -1,0 +1,64 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(about/aboutbc.jpg);
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    display: inline;
+    
+    
+}
+.para{
+    display: inline-block;
+    width: 900px;
+   
+}
+.img2{
+    
+    float: right;
+
+}
+.image1{
+    display: inline;
+}
+.ourstory{
+    margin-top: 200px;
+}
+.para{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.teambehind{
+    margin-top: 200px;
+}
+.image3{
+    display: inline;
+}
+.para{
+    display: inline;
+}
+.motive{
+    margin-top: 50px;
+}
+h1{
+   font-size: 50px;
+   color: white;
+}
+p{
+    font-size: 35px;
+    color: rgb(98, 95, 95);
+   
+}
+.para{
+    display: inline flow-root list-item;
+}
+h2{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}

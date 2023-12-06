@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+:root{
+    --success-color:green;
+    --error-color:red;
+}
+
+
+
+body{
+    background-image: -webkit-linear-gradient(65deg, #013A6B 50%, #004E95 50%);
+}
+.register{
+   position: absolute;
+   top: 20%;
+   left: 55%;
+   border: 5px;
+   border-style: solid;
+   border-color: white;
+   background-color: white;
+}
+.form{
+    padding: 40px 60px 40px 60px;
+    border: 5px;
+}
+.entering{
+    margin-bottom: 0;
+}
+.submit{
+    margin-top: 25px;
+    margin-left: -20px;
+    padding: 10px 70px 10px 70px;
+    background-color: rgb(40, 148, 170);
+   
+    cursor: pointer;
+
+}
+.form input:focus{
+    
+    
+    outline: 0;
+    border-color: #777;
+    
+}
+.form2 small{
+    color: var(--error-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+.icon{
+    width: 48px;
+    height: 48px;
+   position: absolute;
+   left: 2%;
+}
+input:focus{
+    background-color: #777;
+}
+.form2.error small{
+    visibility: visible;
+}
+.form2.error input{
+    border-color: var(--error-color);
+}
+.form2.success input{
+    border-color:var(--success-color);
+}
+

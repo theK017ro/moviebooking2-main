@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.feedback{
+    position: absolute;
+    top:15%;
+   left: 20%;
+   border-style: solid;
+   border-color: rgb(255, 255, 255);
+    background-color: rgb(242, 249, 251);
+   border-radius: 25px;
+   border-width: 15px;
+}
+body{
+  background-color: rgb(116, 180, 194);
+}
+p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.yesno{
+    width: 667px;
+    height: 20px;
+}
+.answer{
+    width: 667px;
+    height: 65px;
+}
+h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.submit{
+    width: 30%;
+    height: 7vh;
+    font-size: 20px;
+    margin-left: 220px;
+    margin-top: 20px;
+    background-color: rgb(97, 163, 217);
+}
+.feed2{
+    padding: 20px;
+}
+input{
+    margin-top: 5px;
+}
+.star{
+    display: flex;
+    padding-right: 10px;
+}
+.stars{
+    padding-right: 5px;
+    font-size: 30px;
+}
+.icon{
+    width: 48px;
+    height: 48px;
+   position: absolute;
+   left: 2%;
+}

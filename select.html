@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="select.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <header>
+      <div class="color">
+        <div class="iconbox">
+          <a href="index.html"><img src="images/icon.png" alt="" class="icon"></a>
+        </div>
+    </header>
+  </header>
+  <div class="all">
+    <div class="movie">
+      <label>Pick a movie:</label>
+      <select id="movie2">
+        <option value="250">Pathan (₹250)</option>
+        <option value="220">AN Action Hero (₹220)</option>
+        <option value="220">pushpa raj (₹220)</option>
+        <option value="270">RRR (₹270)</option>
+        <option value="180">KGF (₹180)</option>
+        <option value="220">varishu (₹220)</option>
+        <option value="170">kantara (₹170)</option>
+      </select>
+    </div>
+    <div class="theatre">
+      <label>Pick a Movie Hall:</label>
+      <select id="theatre2">
+        <option value="250">PVR</option>
+        <option value="220">Wave Cinema</option>
+        <option value="220">Cinepolis</option>
+
+      </select>
+    </div>
+    <div class="Time">
+      <label>Choose show Time:</label>
+      <select id="time2">
+        <option value="250">9:30AM</option>
+        <option value="220">10:15AM</option>
+        <option value="220">12:40PM</option>
+        <option value="220">3:30PM</option>
+        <option value="220">5:15PM</option>
+        <option value="220">10:30PM</option>
+
+      </select>
+    </div>
+    <label for="">Enter your Name:</label>
+    <input type="text" class="name">
+    <div class="payment">
+      <label>Choose payment option:</label>
+      <select id="payment2">
+        <input type="checkbox" id="check1">card
+        <input type="checkbox" id="check2">UPI
+        <div class="paytm" id="paytm">
+          <input type="text" placeholder="enter your UPI">
+          <button>Pay NOw</button>
+        </div>
+        <div class="credit" id="credit">
+          <input type="text" placeholder="enter Name ">
+          <input type="number" placeholder="card no.">
+          <input type="date" placeholder="valid date">
+          <button>Pay Now</button>
+        </div>
+
+      </select>
+    </div>
+    <div class="submit">
+      <a href="seats.html"><button class="submit2">choose seats</button></a>
+    </div>
+  </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script>
+    $("#check2").change(function () {
+      if ($(this).is(':checked')) {
+        document.getElementById("paytm").style.visibility = "visible";
+        $("#paytm").fadeIn(200);
+        $("#credit").fadeOut(200);
+      }
+      else {
+        $("#paytm").fadeOut(200);
+        document.getElementById("paytm").style.visibility = "hidden";
+      }
+    });
+    $("#check1").change(function () {
+      if ($(this).is(':checked')) {
+        document.getElementById("credit").style.visibility = "visible";
+        $("#credit").fadeIn(200);
+        $("#paytm").fadeOut(200);
+      }
+      else {
+        $("#credit").fadeOut(200);
+        document.getElementById("credit").style.visibility = "hidden";
+      }
+    });
+
+  </script>
+
+</body>
+
+</html>

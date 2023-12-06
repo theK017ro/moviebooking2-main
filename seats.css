@@ -1,0 +1,37 @@
+.mainrow{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 110px;
+}
+.one{
+    padding: 15px;
+}
+.row5{
+    margin-top: 30px;
+}
+.four{
+    display: flex;
+    display: inline-block;
+    margin-right: 40px;
+}
+.complete{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 5px 10px 5px;
+}
+.complete button{
+   background-color: #da674a;
+    margin: 10px 20px 10px 20px;
+}
+.booked{
+    background-color: rgb(243, 18, 18);
+}
+.icon{
+    width: 48px;
+    height: 48px;
+   position: absolute;
+   left: 2%;
+}
+body{
+   background-image: url(Summer.png);
+}

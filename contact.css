@@ -1,0 +1,88 @@
+.contactus{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 510px;
+   
+}
+.enterval{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    width: 603px;
+    border-style: solid;
+    border: 5px;
+    border-color: white;
+    background-color: white;
+    
+   
+}
+.Lastname{
+   
+    width: 40%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.firstname{
+    width: 40%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.p{
+    margin-left: 126px;
+    
+}
+.email{
+   width: 64%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.help{
+    width: 64%;
+    height: 80px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 110px;
+    text-align: center;
+    margin-top: 70px;
+}
+body{
+    background-image: url(images/contact.jpg);
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    
+}
+.enter2{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+label{
+    font-size: 25px;
+}
+.submit{
+    font-size: 30px;
+    background-color: rgb(44, 170, 162);
+    cursor: pointer;
+    margin-bottom: 5px;
+    width: 70%;
+}
+.icon{
+    width: 48px;
+    height: 48px;
+   position: absolute;
+   left: 2%;
+}

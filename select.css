@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+   
+   
+}
+.color{
+    background-image: -webkit-linear-gradient(65deg, #386994 50%, #01407b 50%);
+}
+
+.all{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    font-size: 25px;
+    padding-bottom: 10px;
+    background-color: white;
+  
+
+}
+select{
+    margin: 15px 0;
+}
+.submit a{
+    margin-left: 112px;
+}
+.submit button{
+   padding: 5px 42px 5px 42px;
+   color: white;
+   background-color: rgb(126, 202, 203);
+
+}
+.booked{
+    background-color: red;
+}
+.icon{
+    width: 48px;
+    height: 48px;
+   position: absolute;
+   left: 2%;
+}
+#paytm{
+    visibility: hidden;
+}
+#credit{
+    visibility: hidden;
+}

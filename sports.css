@@ -1,0 +1,43 @@
+ button{
+    background-color: #988885;
+     margin: 16px 22px 20px 20px;
+     padding: 20px;
+ }
+ .upperseats{
+    position: absolute;
+    left: 35%;
+    
+    top: 5%;
+  }
+  .bottomseats{
+    position: absolute;
+    left: 35%;
+   top: 187%;
+    
+    bottom: 5%;
+  }
+  .rightseats{
+   
+   position: absolute;
+   top: 5%;
+   right: 0%;
+   border-bottom-left-radius: 50%;
+  }
+  .center{
+    size: 100px;
+  }
+  .container{
+    height: 440px;
+    width: 700px;
+    background-color: red;
+    border-radius: 50%;
+   position: absolute;
+   left: 30%;
+   top: 30%;
+   background-color: green;
+
+   
+  }
+  .mainp{
+    border-radius: 50%;
+  }
